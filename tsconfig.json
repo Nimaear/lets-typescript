@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "lib": [
+      "es2017",
+      "esnext",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "@types",
+      "./node_modules/@types"
+    ],
+    "baseUrl": "./",
+    "strict": true
+  }
+}
